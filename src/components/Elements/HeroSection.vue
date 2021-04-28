@@ -5,7 +5,7 @@
   <!-- Header -->
   <div class="relative pb-32 bg-gray-800">
     <div class="absolute inset-0">
-      <img class="w-full h-full object-cover" src="https://78.media.tumblr.com/db8d04c43f9987ac30e67034b522a5f6/tumblr_p93azatrbW1u7ns0go1_1280.jpg" style="height:40vh" alt="">
+      <img class="w-full h-full object-cover" src="https://images.pexels.com/photos/1230157/pexels-photo-1230157.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" style="height:40vh" alt="">
       <div class="absolute inset-0 bg-gray-800" style="mix-blend-mode: multiply;" aria-hidden="true"></div>
     </div>
     <div class="relative max-w-7xl mx-auto py-32 px-4 sm:py-32 sm:px-6 lg:px-8">
@@ -20,7 +20,7 @@
     <div class="grid grid-cols-1 gap-y-0 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 lg:gap-y-0 lg:gap-x-8 p-8">
         <!--Card 1-->
           <div class="rounded overflow-hidden shadow-lg">
-            <img class="w-full" src="@/assets/images/zanzibar.jpg" alt="Zanzibar">
+            <img class="w-full" src="https://images.pexels.com/photos/6476851/pexels-photo-6476851.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Zanzibar">
                  <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">Zanzibar Tour</div>
                         <p class="text-gray-700 text-base">
@@ -35,7 +35,7 @@
         </div>
                     <!--Card 2-->
             <div class="rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="@/assets/images/zanzibar.jpg" alt="Zanzibar">
+                <img class="w-full" src="https://images.pexels.com/photos/6476851/pexels-photo-6476851.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Zanzibar">
                    <div class="px-6 py-4">
                       <div class="font-bold text-xl mb-2">Slave Trade Tour</div>
                         <p class="text-gray-700 text-base">
@@ -50,7 +50,7 @@
             </div>
                     <!--Card 3-->
             <div class="rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="@/assets/images/kigali.jpg" alt="Kigali">
+                <img class="w-full" src="http://st2.depositphotos.com/1043178/11519/i/450/depositphotos_115192268-One-of-the-cleanest-cities-in-Africa-Kigali.jpg" alt="Kigali">
                     <div class="px-6 py-4">
                        <div class="font-bold text-xl mb-2">Nyerere Tour</div>
                         <p class="text-gray-700 text-base">
@@ -65,7 +65,7 @@
             </div>
                     <!--Card 4-->
             <div class="rounded overflow-hidden shadow-lg">
-                <img class="w-full" src="@/assets/images/kigali.jpg" alt="Kigali">
+                <img class="w-full" src="http://st2.depositphotos.com/1043178/11519/i/450/depositphotos_115192268-One-of-the-cleanest-cities-in-Africa-Kigali.jpg" alt="Kigali">
                     <div class="px-6 py-4">
                       <div class="font-bold text-xl mb-2">Kigali Tour</div>
                         <p class="text-gray-700 text-base">

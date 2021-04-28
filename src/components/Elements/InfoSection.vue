@@ -3,15 +3,7 @@
 <div class="w-2/3 mx-auto md:block lg:flex lg:justify-center xl:flex xl:justify-center">
     <div class="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4">
         <div class="mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-            <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                <img class="w-full" src="@/assets/images/kigali.jpg" alt="">
-                <div class="absolute inset-0 w-full h-full flex items-center justify-center" aria-hidden="true">
-                    <svg class="h-20 w-20 text-indigo-500" fill="currentColor" viewBox="0 0 84 84">
-                    <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
-                    <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
-                    </svg>
-                </div>
-            </button>
+                <img class="w-full rounded-md" src="@/assets/images/kigali.jpg" alt="">
         </div>
     </div>
     <div class="px-4">
@@ -41,15 +33,7 @@
     </div>
        <div class="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4">
         <div class="mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-            <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                <img class="w-full" src="@/assets/images/kigali.jpg" alt="">
-                <div class="absolute inset-0 w-full h-full flex items-center justify-center" aria-hidden="true">
-                    <svg class="h-20 w-20 text-indigo-500" fill="currentColor" viewBox="0 0 84 84">
-                    <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
-                    <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
-                    </svg>
-                </div>
-            </button>
+                <img class="rounded-md w-full" src="http://st2.depositphotos.com/1043178/11519/i/450/depositphotos_115192268-One-of-the-cleanest-cities-in-Africa-Kigali.jpg" alt="">
         </div>
     </div>
 </div>
@@ -57,15 +41,7 @@
 <div class="mt-32 w-2/3 mx-auto md:block lg:flex lg:justify-center xl:flex xl:justify-center">
     <div class="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4">
         <div class="mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-            <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                <img class="w-full" src="@/assets/images/kigali.jpg" alt="">
-                <div class="absolute inset-0 w-full h-full flex items-center justify-center" aria-hidden="true">
-                    <svg class="h-20 w-20 text-indigo-500" fill="currentColor" viewBox="0 0 84 84">
-                    <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
-                    <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
-                    </svg>
-                </div>
-            </button>
+                <img class="rounded-md w-full" src="http://st2.depositphotos.com/1043178/11519/i/450/depositphotos_115192268-One-of-the-cleanest-cities-in-Africa-Kigali.jpg" alt="">
         </div>
     </div>
     <div class="px-4">
@@ -85,15 +61,7 @@
 <div class="p-10 mt-32 w-2/3 mx-auto md:block lg:flex lg:justify-center xl:flex xl:justify-center">
     <div class="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4">
         <div class="mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-            <button type="button" class="relative block w-full bg-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                <img class="w-full" src="@/assets/images/kigali.jpg" alt="">
-                <div class="absolute inset-0 w-full h-full flex items-center justify-center" aria-hidden="true">
-                    <svg class="h-20 w-20 text-indigo-500" fill="currentColor" viewBox="0 0 84 84">
-                    <circle opacity="0.9" cx="42" cy="42" r="42" fill="white" />
-                    <path d="M55.5039 40.3359L37.1094 28.0729C35.7803 27.1869 34 28.1396 34 29.737V54.263C34 55.8604 35.7803 56.8131 37.1094 55.9271L55.5038 43.6641C56.6913 42.8725 56.6913 41.1275 55.5039 40.3359Z" />
-                    </svg>
-                </div>
-            </button>
+                <img class="rounded-md w-full" src="http://st2.depositphotos.com/1043178/11519/i/450/depositphotos_115192268-One-of-the-cleanest-cities-in-Africa-Kigali.jpg" alt="">
         </div>
     </div>
   <div class="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 lg:px-0 lg:py-8 lg:max-w-none">

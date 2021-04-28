@@ -72,7 +72,7 @@
                     </div>
 
                     <div>
-                    <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" @click="handleSubmit">
+                    <button type="submit" class="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-700 hover:bg-green-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" @click="handleSubmit">
                         Sign in
                     </button>
                     </div>
@@ -81,8 +81,8 @@
             </div>
             </div>
         </div>
-        <div class="mt-40 hidden lg:block relative w-0  flex-1">
-            <img class=" inset-0  object-cover" src='@/assets/images/setup.jpg' alt="">
+        <div class="mt-64 hidden lg:block relative w-0  flex-1">
+            <img class=" inset-0  object-cover" src='https://img.freepik.com/free-vector/illustration-human-avatar-with-environment_53876-17627.jpg?size=626&ext=jpg' alt="">
         </div>
         </div>
         <div class="">
