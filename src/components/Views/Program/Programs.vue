@@ -19,7 +19,7 @@
         </div>
       </div>
       </div>
-<div class="max-w-7xl mx-auto">
+    <div class="max-w-7xl mx-auto">
         <div class="relative grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-8 mt-12">
                 <div class="content-div cursor-pointer ">
                   <div class="img-box p-1 rounded-lg transform hover:-translate-y-1 hover:scale-100">
@@ -82,15 +82,18 @@
                 </div> 
               </div>
         </div>
+        <Footer class="mt-32" />
     </html>
 </template>
 
 <script>
 import NavBar from '@/components/Elements/NavBar.vue'
+import Footer from '@/components/Elements/Footer.vue'
 export default {
     name: 'Programs',
     components: {
-        NavBar
+        NavBar,
+        Footer
     }
 }
 </script>

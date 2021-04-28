@@ -20,15 +20,13 @@
             </span>
           </div>
         </div>
-               <div class="mt-6 grid grid-cols-1 gap-3">
-          <div>
-            <a href="#" class="w-full inline-flex justify-center py-2 px-4 border border-gray-300 rounded-md shadow-sm bg-white text-sm font-medium text-gray-500 hover:bg-gray-50">
-              <span class="sr-only">Sign in with Google</span>
-              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" aria-hidden="true">
-                <path fill-rule="evenodd" d="M20 10c0-5.523-4.477-10-10-10S0 4.477 0 10c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V10h2.54V7.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V10h2.773l-.443 2.89h-2.33v6.988C16.343 19.128 20 14.991 20 10z" clip-rule="evenodd" />
-              </svg>
-            </a>
-          </div>
+        <div class="mt-6 grid grid-cols-1 gap-3 cursor-pointer">
+            <div class="google-btn"  @click="googleSignIn">
+                <div class="google-icon-wrapper">
+                    <img class="google-icon" src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg"/>
+                </div>
+                <p class="btn-text"><b>Sign in with google</b></p>
+            </div>
         </div>
         <div class="relative mt-5">
           <div class="absolute inset-0 flex items-center">
@@ -43,7 +41,7 @@
 
             <div class="mt-2">
                 <div class="mt-6">
-                <form action="#" method="POST" class="space-y-6">
+                <form class="space-y-6">
                     <div>
                     <div class="mt-1">
                         <input v-model="user.email" id="email" name="email" type="email" autocomplete="email" required class="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm placeholder-gray-400 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm" placeholder="Email">
@@ -92,6 +90,8 @@
 </template>
 
 <script>
+import  firebase from '@firebase/app';
+import 'firebase/auth';
 import NavBar from '@/components/Elements/NavBar.vue'
 import Footer from '@/components/Elements/Footer.vue'
 export default {
@@ -103,20 +103,83 @@ export default {
     data() {
         return {
             user: {
-                email: "",
-                password: ""
-            }
+                email: "dummyemail@institute.com",
+                password: "letmepass"
+            },
+            error: ""
         }
     },
     methods: {
-        handleSubmit() {
-        // const payload = {
-        //     email: this.email,
-        //     password: this.password
-        //     }
-        // this.errors = []
-        // this.error = false
-        }
+       async submit(){
+        console.log(this.user.email)
+        console.log(this.user.password)
+        const delay = ms => new Promise(res => setTimeout(res, ms));
+        await delay(5000);
+        //setTimeout(function(){ this.show = false; }, 10000);
+        this.user.email= ''
+        this.user.password = ''
+        alert('Signed In')
+        },
+
+        
+         googleSignIn: function() {
+             var provider = new firebase.auth.GoogleAuthProvider();
+             firebase.auth()
+                    .signInWithPopup(provider)
+                    .then((result) => {
+                    /** @type {firebase.auth.OAuthCredential} */
+                    var credential = result.credential;
+                    console.log(credential)
+                    // ...
+                }).catch((error) => {
+                    // Handle Errors here.
+                    console.log(error)
+                    // ...
+                    })
+         }          
     }
 }
 </script>
+
+
+<style scoped>
+.google-btn {
+  width: 184px;
+  height: 42px;
+  background-color:#4285f4;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+  margin: auto;
+  width: 50%;
+}
+  .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 40px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: white;
+  }
+  .google-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+  .btn-text {
+    float: right;
+    margin: 11px 11px 0 0;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+  }
+  .btn-text:hover {
+    box-shadow: 0 0 6px #4285f4;
+  }
+  .btn-text:active {
+    background: #1669F2;
+  }
+</style>

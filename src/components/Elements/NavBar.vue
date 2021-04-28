@@ -5,7 +5,7 @@
             <div class="flex items-center justify-between h-16">
               <div class="flex items-center">
                 <div class="flex-shrink-0">
-                   <!-- <router-link to="/"><img class="h-8 w-auto" src="" alt="Logo"></router-link> -->
+                   <router-link to="/"><img class="h-12 w-auto" src="https://openinstitute.africa/wp-content/uploads/2020/07/OI-Full-Logo-Horizontal.png" alt="Logo"></router-link>
                 </div>
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-4">

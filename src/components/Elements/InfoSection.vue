@@ -3,7 +3,7 @@
 <div class="w-2/3 mx-auto md:block lg:flex lg:justify-center xl:flex xl:justify-center">
     <div class="mb-4 flex-shrink-0 sm:mb-0 sm:mr-4">
         <div class="mx-auto w-full rounded-lg shadow-lg lg:max-w-md">
-                <img class="w-full rounded-md" src="@/assets/images/kigali.jpg" alt="">
+                <img class="w-full rounded-md" src="http://st2.depositphotos.com/1043178/11519/i/450/depositphotos_115192268-One-of-the-cleanest-cities-in-Africa-Kigali.jpg" alt="">
         </div>
     </div>
     <div class="px-4">
